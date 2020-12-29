@@ -11,9 +11,11 @@ body{
 }
 
 .contenedor{
-    width: 1000px;
+    width: 90%;
+    max-width: 1000px;
     margin: 20px;
     margin: auto;
+    background: #321f28;
 }
 
 header{
@@ -48,7 +50,7 @@ header nav ul li a:hover{
 }
 
 .main {
-    width: 700px;
+    width: 70%;
     background: #ffff;
     float: left;
 }
@@ -77,8 +79,7 @@ header nav ul li a:hover{
 }
 
 aside{
-    width: 300px;
-    height: 1000px;
+    width: 30%;
     background: #321f28;
     float: left;
     padding: 20px;
@@ -118,13 +119,22 @@ aside .widget p{
 }
 
 footer {
-    width: 1000px;
+    width: 100%;
     clear: both;
     background: #214252;
     padding: 15px 0;
     text-align: center;
 }
 
+@media screen and (max-width:800px){
+    .main{
+        width: 100%;
+    }
+
+    aside{
+        width: 100%;
+    }
+}
 
 
 
