@@ -1,0 +1,36 @@
+@import "var";
+aside{
+    width: 30%;
+    height: 1005px;
+    float: left;
+    background: $color_aside;
+    padding: 20px;
+    color: $color_aside3;
+    .widget{
+        margin-bottom: 20px;
+        .titulo{
+            color: $color_aside2;
+            border-bottom: 1px solid $color_aside2;
+            margin-bottom: 10px;
+        }
+        ul{
+            list-style: none;
+            li{
+                border-bottom: 1px solid rgba($color_primario,.2);
+                padding: 10px 0;
+                
+                a{
+                    color: $color_primario;
+                    text-decoration: none;
+                    &:hover{
+                        color: $color_segundario3;
+                    }
+                }
+            }
+        }
+        p{
+            line-height: 27px;
+            text-align: center;
+        }
+    }
+}

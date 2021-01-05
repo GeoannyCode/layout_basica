@@ -1,0 +1,28 @@
+header{
+    background: $color_primario;
+    nav{
+        ul{
+            list-style: none;
+            overflow: hidden;
+            li{
+                float: left;
+                a{
+                    text-decoration: none;
+                    display: inline-block;
+                    color: #14274e;
+                    padding: 15px 20px;
+                    &:hover{
+                        background: $color_segundario2;
+                        color: $color_primario;
+                        transition: 0.6s;
+                    }
+                    &:focus{
+                        background: $color_segundario2;
+                        color: $color_primario;
+                        transition: 0.6s;
+                    }
+                }
+            } 
+        }
+    }
+}
